@@ -17,5 +17,6 @@ public class PlaceOrder {
         double price = input.nextDouble();
         System.out.println("Order for " + quantity + " " + description.toUpperCase());
         System.out.printf("Total price %14.2f\n", price * quantity);
+        input.close();
     }
 }
