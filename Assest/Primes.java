@@ -10,7 +10,7 @@ public class Primes {
             }
         }
     }
-
+// check if it is a prime number.
     public static boolean isPrime(int number) {
         if (number > 1) {
             for (int i = 2; i * i <= number; i++) {
