@@ -11,6 +11,7 @@ public class PlaceOrder {
         System.out.print("Quantity: ");
         int quantity = input.nextInt();
         System.out.print("Description: ");
+        // discard the space
         input.nextLine();
         String description = input.nextLine();
         System.out.print("Unit price: ");
