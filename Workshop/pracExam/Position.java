@@ -1,0 +1,7 @@
+/**
+ * Position
+ */
+public class Position {
+
+    
+}
